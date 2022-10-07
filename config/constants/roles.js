@@ -1,0 +1,8 @@
+module.exports = {
+  FACULTY: 'FACULTY',
+  STUDENT: 'STUDENT',
+  PERSONNEL: 'PERSONNEL',
+  OFFICIAL: 'OFFICIAL',
+  SELLER: 'SELLER',
+  BUYER: 'BUYER'
+}
