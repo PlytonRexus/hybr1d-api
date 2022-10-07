@@ -12,7 +12,7 @@ const { filterParams, includeParams } = require('../validation/queryParser')
  * @param {Response} res
  * @param {NextFunction} next
  */
-const setRequestTimeout = function (req, res, next) {
+const setRequestTimeout = function (req, _res, next) {
   req.setTimeout(
     parseInt(
       env('REQUEST_TIMEOUT', 30),

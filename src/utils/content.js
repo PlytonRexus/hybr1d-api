@@ -1,4 +1,4 @@
-const debug = require('debug')('v2:utils:content')
+const debug = require('debug')('app:utils:content')
 
 module.exports = {
 
